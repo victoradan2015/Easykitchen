@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="15dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:weightSum="1"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Chiles en Ahogada"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:background="@drawable/chilesahogada"
+
+            >
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background=""
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Ingredientes" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="300 Gramos de Carne de res molida\n300 Gramos de Carne de cerdo molida\n1 Cucharada de Sal\n1/2 Cucharadita de Pimienta negra molida " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Receta" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="398dp"
+                android:gravity="left"
+                android:text="Para el relleno, calienta la manteca y fríe la cebolla hasta que esté transparente; añade el ajo y cocina por 1 minuto más. Agrega la carne de res y cerdo con 1 cucharada de sal y la pimienta; cocina por 10 minutos. Añade el jitomate, ¼ cucharadita de canela, la nuez moscada, el comino, el clavo, la manzana, la pera, el durazno, el plátano, las almendras, los piñones y las pasas, mezcla y cocina por 5 minutos más; rellena los chiles y reserva.\nPara la nogada, licúa el queso crema con el queso de cabra, la nuez de Castilla, el azúcar, la crema, la leche, ¼ cucharadita de canela, el jerez y ½ cucharadita de sal.\nSirve los chiles bañando con la nogada, decora con la granada y el perejil. Ofrece.\nSi lo deseas, puedes capear los chiles después de rellenarlos.\nCuanto más fuerte sea la pigmentación de los frutos o vegetales mayor valor nutricional aportan."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
